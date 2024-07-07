@@ -1,3 +1,3 @@
 # Utils Algorithm
 
-- Generate a random array of numbers
+- Generate a random slice of numbers

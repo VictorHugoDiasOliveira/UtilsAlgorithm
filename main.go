@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	arraygenerator "github.com/VictorHugoDiasOliveira/UtilsAlgorithm/arrayGenerator"
+	slicegenerator "github.com/VictorHugoDiasOliveira/UtilsAlgorithm/sliceGenerator"
 )
 
 func main() {
-	array := arraygenerator.GenerateArrayWithRandomNumbers(20, 100)
+	array := slicegenerator.GenerateSliceWithRandomNumbers(20, 100)
 	fmt.Println(array)
 }

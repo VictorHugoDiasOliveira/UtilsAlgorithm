@@ -1,16 +1,16 @@
-package arraygenerator
+package slicegenerator
 
 import (
 	"math/rand"
 	"time"
 )
 
-func GenerateArrayWithRandomNumbers(array_length int, max_number int) []int {
+func GenerateSliceWithRandomNumbers(slice_length int, max_number int) []int {
 	rand.New(rand.NewSource(time.Now().UnixNano()))
 
 	var result []int
 
-	for i := 0; i < array_length; i++ {
+	for i := 0; i < slice_length; i++ {
 		result = append(result, rand.Intn(max_number))
 	}
 
