@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	slicegenerator "github.com/VictorHugoDiasOliveira/UtilsAlgorithm/sliceGenerator"
+	slicegenerator "github.com/VictorHugoDiasOliveira/UtilsAlgorithm/slicegenerator"
 )
 
 func main() {
